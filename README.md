@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nafees Ahmed Bhatti — Personal Portfolio
 
-## Getting Started
+**Live Site:** [https://nafees-portfolio-livid.vercel.app](https://nafees-portfolio-livid.vercel.app)
 
-First, run the development server:
+A responsive developer portfolio showcasing production AI & full-stack work, engineering experience, and a privacy-first contact form.
 
+## Featured Projects
+- **[EMPHSS School Portal](https://emphss.vercel.app)** — Full-stack school management, digital ID card, and award-roll platform (`Next.js 16`, `TypeScript`, `Prisma`, `PostgreSQL`)
+- **[SmartStudy AI](https://smartstudy-ai-mu.vercel.app)** — AI study companion with PDF/DOCX/OCR parsing, quizzes, flashcards, and mind maps (`React 19`, `Gemini AI`, `Node.js`)
+- **[AI Health Analyzer](https://ai-health-analyzer-phi.vercel.app)** — Clinical lab report analyzer and vitals intelligence dashboard (`Next.js 16`, `TypeScript`, `Prisma`, `Recharts`)
+
+## Tech Stack
+- **Frontend:** Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Framer Motion
+- **Backend & Email:** Next.js Route Handlers (`/api/contact`), Nodemailer / Resend API with rate limiting and honeypot protection
+- **Deployment:** Vercel
+
+## Local Setup
 ```bash
+git clone https://github.com/NafeesAhmedBhatti/nafees-portfolio.git
+cd nafees-portfolio
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
