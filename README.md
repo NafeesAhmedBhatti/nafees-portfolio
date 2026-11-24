@@ -1,6 +1,6 @@
 # Nafees Ahmed Bhatti — Personal Portfolio
 
-**Live Site:** [https://nafees-portfolio-livid.vercel.app](https://nafees-portfolio-livid.vercel.app)
+**Live Site:** [https://nafeesbhatti.vercel.app](https://nafeesbhatti.vercel.app)
 
 A responsive developer portfolio showcasing production AI & full-stack work, engineering experience, and a privacy-first contact form.
 
